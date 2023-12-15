@@ -1,14 +1,167 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-  <a href="https://github.com/Sam962/Sam-Aldehayyat/blob/f30a339f6464aa75267a2831c778bd6e583ab0d3/Resume.pdf">  <h1>Resume</h1></a>
-</body>
-</html>
+<h1 style="color:#EAEAEA; font-size:41px;margin-left:40%;margin-bottom:4%">Sam Aldehayyat</h1>
+<div class="big-circle">
+   
+    <a href="https://github.com/Sam962/Sam-Aldehayyat/blob/f30a339f6464aa75267a2831c778bd6e583ab0d3/Resume.pdf">    <div class="small-circle"></div>
+    <i class="down-arrow"></i>
+</a>
+</div>
+<a href="https://github.com/Sam962/Sam-Aldehayyat/blob/f30a339f6464aa75267a2831c778bd6e583ab0d3/Resume.pdf">
+<div class=btn>Click here!</div>
+</a>
+<style>
+    body {
+    background-color: #B20101;
+}
+
+.big-circle {
+    margin-top:10px;
+    width: 130px;
+    height: 130px;
+    padding: 30px;
+    background-color: #EAEAEA;
+    border-radius: 50%;
+    box-shadow: 1.5px 1px 15px #000;
+    margin:auto;
+    margin-top:15%;
+    text-align: center;
+}
+
+.small-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #B20101;
+    border-radius: 50px;
+    animation-name: marire;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    margin:auto;
+}
+
+i {
+    border: solid #B20101;
+    border-width: 0 10px 10px 0;
+    display:inline-block;
+    padding:3px;
+    width:20px;
+    height:20px;
+    animation-name: sageata;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+.down-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+@keyframes marire {
+    5% {
+        margin-top:.2em;
+        border-radius:45px;
+        width:80px;
+    }
+    15% {
+        margin-top:.4em;
+        border-radius:40px;
+        width:70px;
+    }
+    25% {
+        margin-top:.6em;
+        border-radius:30px;
+        width: 58px;
+    }
+    30% {
+        margin-top:.8em;
+        border-radius:20px;
+        width:50px;
+    }
+    35% {
+        margin-top:1.6em;
+        border-radius: 10px;
+        width: 30px;
+    }
+    40% {
+        margin-top:1.8em;
+        border-radius: 10px;
+        width: 40px;
+    }
+    45% {
+        margin-top:1.6em;
+        border-radius: 10px;
+        width: 25px;
+    }
+    50% {
+        margin-top:1.8em;
+        border-radius: 10px;
+        width: 30px;
+    }
+    55% {
+        margin-top:1.6em;
+        border-radius: 10px;
+        width: 40px;
+    }
+    65% {
+        margin-top:.8em;
+        border-radius:20px;
+        width: 50px;
+    }
+    75% {
+        margin-top:.6em;
+        border-radius: 30px;
+        width: 58px;
+    }
+
+    85% {
+        margin-top: .4em;
+        border-radius:40px;
+        width: 70px;
+    }
+    85% {
+        margin-top: .2em;
+        border-radius:45px;
+        width:80px;
+    }
+    100% {
+        margin-top:0;
+        border-radius: 50px;
+        width:70px;
+    }
+
+}
+
+@keyframes sageata {
+0% {
+    opacity: 0;
+}
+25% { 
+    opacity: 0.5;
+}
+50% {
+    opacity:1;
+}
+75% {
+    opacity:0.5;
+}
+100% {
+    opacity: 0;
+}
+}
+
+.btn {
+    width:150px;
+    height: 20px;
+    background-color:#EAEAEA;
+    margin:25px auto;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size:18px;
+    color:#000000;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #000000;
+    cursor:pointer;
+}
+
+</style>
