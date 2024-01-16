@@ -1,0 +1,12 @@
+TEXSRC = $(wildcard ./*.tex)
+
+all: main clean rename
+
+rename:
+	mv main.pdf Sam-Aldehayyat-Cover-Letter.pdf
+
+main: $(TEXSRC)
+	pdflatex main
+
+clean: 
+	\rm -f *.dvi *.aux *.ps *~ *.log *.blg *.bbl *.out *.fls *.fdb_latexmk *.synctex.gz
